@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'ISO8601DateFormatter@mirego'
-  s.version  = '0.7'
+  s.version  = '0.8-mirego'
   s.license  = { :type => 'BSD', :file => 'LICENSE.txt' }
   s.summary  = 'A Cocoa NSFormatter subclass to convert dates to and from ISO-8601-formatted strings. Supports calendar, week, and ordinal formats.'
   s.description =  <<-DESC
@@ -13,7 +13,7 @@ DESC
   s.authors  = 'Peter Hosey'
   s.homepage = 'http://boredzo.org/iso8601dateformatter/'
   s.license  = { :type => 'BSD', :file => 'LICENSE.txt' }
-  s.source   = { :git => 'https://github.com/boredzo/iso-8601-date-formatter.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/mirego/iso-8601-date-formatter.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
